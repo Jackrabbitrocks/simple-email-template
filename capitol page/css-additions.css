@@ -86,3 +86,30 @@ Click the help icon above to learn more.
 .nav li ul {
 	top:25px;
 }
+
+#top-menu li li a {
+    margin-left: -30px;
+    padding-left: 30px;
+}
+
+.bluesectionbar p{
+	color:#ffffff;
+}
+
+/* temp fixes for layout issues */
+@media all and (min-width: 981px) {
+	/* Fluid Grid */
+	.et_pb_gutters3 .et_pb_column,
+	.et_pb_gutters3.et_pb_row .et_pb_column {
+		margin-right: 0;
+	}
+}
+
+.onlinestoresidebar a.redbtn {
+    width: 100%;
+    font-size: 14px;
+}
+
+div#et-top-navigation{
+	padding-left: 0 !important;
+}
