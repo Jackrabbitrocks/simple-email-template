@@ -112,6 +112,7 @@ Click the help icon above to learn more.
 
 div#et-top-navigation{
 	padding-left: 0 !important;
+}
 
 .mobile_nav .mobile_menu_bar:before{
     color: #ffffff;
@@ -119,6 +120,7 @@ div#et-top-navigation{
 
 /* start with mobile update */
 @media (max-width: 480px) {
+
     #main-header .col1 {
         width: 100%;
         text-align: center;
@@ -132,5 +134,11 @@ div#et-top-navigation{
     }
     .logo{
         height: 0;
+    }
+    .et_pb_column.et_pb_column_1_2.et_pb_column_0{
+        margin-bottom: 0;
+    }
+    .homerow1{
+        height: inherit;
     }
 }
