@@ -110,8 +110,8 @@ Click the help icon above to learn more.
     font-size: 14px;
 }
 
-div#et-top-navigation{
-	padding-left: 0 !important;
+#et-top-navigation{
+	padding-left: 20px !important;
 }
 
 .mobile_nav .mobile_menu_bar:before{
@@ -147,7 +147,6 @@ div#et-top-navigation{
     }
     #et-top-navigation {
         padding-bottom: 13px;
-        padding-left: 20px !important;
     }
     .bluesectionbar {
         width: 100%;
@@ -156,10 +155,17 @@ div#et-top-navigation{
         width: 100%;
         margin-bottom: 0;
     }
+    .bluesidebar {
+        width: 100%;
+        max-width: 426px !important;
+    }
     .et_pb_column {
         margin-bottom: 0;
     }
     .staticblock, .staticblockblue {
         width: 95%;
+    }
+    .sidebarphoto{
+        text-align: center;
     }
 }
