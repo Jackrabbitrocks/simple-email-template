@@ -168,4 +168,8 @@ Click the help icon above to learn more.
     .sidebarphoto{
         text-align: center;
     }
+    .splitcolspecial .pagegridblock, .splitcolspecial2 .pagegridblock {
+        font-size: 14px;
+        width: 95%;
+    }
 }
