@@ -148,14 +148,14 @@ Click the help icon above to learn more.
     #et-top-navigation {
         padding-bottom: 13px;
     }
-    .bluesectionbar {
+    .bluesectionbar, .redtitlebar {
         width: 100%;
     }
     .bluetitlebar {
         width: 100%;
         margin-bottom: 0;
     }
-    .bluesidebar {
+    .bluesidebar, .redsidebar {
         width: 100%;
         max-width: 426px !important;
     }
@@ -178,5 +178,16 @@ Click the help icon above to learn more.
     }
     .et_pb_column.et_pb_column_1_2.et_pb_column_0{
         overflow: hidden;
+    }
+    a.hovertextblue2:after,a.hovertextblue4:after{
+        display: none;
+    }
+    .single .et_pb_post {
+        margin-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+    }
+    .et_pb_blog_grid .et_pb_post{
+        width: 100%;
     }
 }
