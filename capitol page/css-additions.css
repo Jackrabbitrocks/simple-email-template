@@ -172,4 +172,11 @@ Click the help icon above to learn more.
         font-size: 14px;
         width: 95%;
     }
+    .et_pb_blog_grid .et_pb_post.category-personal-stories {
+        width: 100%;
+        font-size: 1em;
+    }
+    .et_pb_column.et_pb_column_1_2.et_pb_column_0{
+        overflow: hidden;
+    }
 }
