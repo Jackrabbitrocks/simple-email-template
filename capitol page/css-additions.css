@@ -112,4 +112,25 @@ Click the help icon above to learn more.
 
 div#et-top-navigation{
 	padding-left: 0 !important;
+
+.mobile_nav .mobile_menu_bar:before{
+    color: #ffffff;
+}
+
+/* start with mobile update */
+@media (max-width: 480px) {
+    #main-header .col1 {
+        width: 100%;
+        text-align: center;
+    }
+    #main-header .col2 {
+        display: none;
+    }
+     .et_boxed_layout #page-container, .et_boxed_layout #page-container #main-header, .et_boxed_layout #page-container #top-header {
+        height: 80px !important;
+        min-height: 80px;
+    }
+    .logo{
+        height: 0;
+    }
 }
