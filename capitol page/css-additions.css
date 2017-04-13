@@ -190,4 +190,7 @@ Click the help icon above to learn more.
     .et_pb_blog_grid .et_pb_post{
         width: 100%;
     }
+    .et_pb_text.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_pb_text_2 {
+        padding: 0 15px;
+    }
 }
