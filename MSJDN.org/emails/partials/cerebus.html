@@ -39,7 +39,6 @@
         height: 100% !important;
         width: 100% !important;
         font-family: Archivo, sans-serif;
-        font-size: 16px;
     }
     /* What it does: Stops email clients resizing small text. */
     
@@ -116,6 +115,13 @@
             min-width: 375px !important;
         }
     }
+
+    @media only screen and (max-device-width: 480px){
+        body{
+            font-size: 2em;
+        }
+
+    }
     
     .vertical-top {
         vertical-align: top;
@@ -152,6 +158,13 @@
         background: #555555 !important;
         border-color: #555555 !important;
     }
+
+    /* What it does: images won't be larger than email width */
+    img{
+        max-width: 580px;
+        width: 100%;
+    }
+
     </style>
 </head>
 
@@ -164,8 +177,8 @@
   <![endif]-->
   <table height="100%" width="100%" cellpadding="0" cellspacing="0" border="0">
     <tr>
-      <td valign="top" align="left" background="https://www.msjdn.org/wp-content/uploads/2017/04/starstripe-bg.png" style="padding-top:30px">
-    <center style="width: 100%; text-align: left;padding-bottom:50px;">
+      <td valign="top" align="left" background="https://www.msjdn.org/wp-content/uploads/2017/04/starstripe-bg.png" style="padding:30px">
+    <center style="width: 100%; text-align: left;">
         <!-- Visually Hidden Preheader Text : BEGIN -->
         <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
             The latest Military Spouse JD Network newsletter
@@ -274,7 +287,7 @@
                 <!-- 1st ARTICLE : BEGIN -->
                 <!-- 1st ARTICLE HEADLINE : START -->
                 <tr>
-                    <td align="center">
+                    <td align="center" style="padding:0 15px;">
                         <h2>A Message From The President&apos;s Desk</h2>
                     </td>
                 </tr>
@@ -327,7 +340,7 @@
                 <!-- 2ND ARTICLE : BEGIN -->
                 <!-- 2ND ARTICLE HEADLINE : START -->
                 <tr>
-                    <td align="center">
+                    <td align="center" style="padding:0 15px;">
                         <h2>Milspouse Attorney Licensing Becomes Michigan Law</h2>
                     </td>
                 </tr>
@@ -380,7 +393,7 @@
                 <!-- IMAGE WITH CAPTION : START -->
                 <!-- IMAGE WITH CAPTION HEADLINE : START -->
                 <tr>
-                    <td align="center">
+                    <td align="center" style="padding:0 15px;">
                         <h2>Headline for Image</h2>
                     </td>
                 </tr>
@@ -394,7 +407,7 @@
                                     <img src="https://gallery.mailchimp.com/2bd53d5e01/images/afcb3407-2568-4e54-ab8e-ca66005b38bd.png" alt="">
                                 </td>
                             </tr>
-                <!-- IMAGE WITH CAPTION IMAGE : START -->
+                <!-- IMAGE WITH CAPTION IMAGE : END -->
                 <!-- IMAGE WITH CAPTION CAPTION : START -->
                             <tr>
                                 <td align="center">
@@ -418,7 +431,7 @@
                 <!-- COMMENTS : START -->
                 <tr>
                     <td>
-                        <p style="width:75%;margin:10px auto;font-weight:bold;text-align:center;font-size:1.2em;">
+                        <p style="width:75%;margin:10px auto;font-weight:bold;text-align:center;font-size:1.4em;">
                             Comments or Suggestions for Bars and Stripes?<br>Let us know at <a href="mailto:barsandstripes@msjdn.org">barsandstripes@msjdn.org</a>.
                         </p>
                     </td>
