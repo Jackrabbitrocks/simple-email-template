@@ -49,10 +49,12 @@
   display:none;
 }
 
+// KEEP ASTRISK ON THE SAME LINE AS LABEL
 .crm-section.billing_name_address-section div.label, .crm-block .credit_card_info-group div.label {
 	white-space:nowrap;
 }
 
+// STYLE THE FIELDSETS
 .crm-container fieldset {
 	border: 1px solid #bbb;
 	margin: 0 2px;
@@ -72,4 +74,18 @@
   position: relative;
   text-indent: 0px;
   width: auto;
+}
+
+#crm-container.crm-public .crm-section,
+div.crm-section {
+  margin-bottom: 15px;
+}
+
+// MODIFY HEIGH OF TEXT INPUT FIELDS
+#crm-container.crm-public input[type="text"],
+#crm-container.crm-public input[type="password"],
+#crm-container.crm-public input[type="email"],
+#crm-container.crm-public select {
+  font-size: 0.85em;
+  padding: 2px 5px 0;
 }
