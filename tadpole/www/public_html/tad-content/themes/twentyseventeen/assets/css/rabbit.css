@@ -89,3 +89,7 @@ div.crm-section {
   font-size: 0.85em;
   padding: 2px 5px 0;
 }
+
+.crm-container .crm-section div.content {
+  margin-left: 21%;
+}
