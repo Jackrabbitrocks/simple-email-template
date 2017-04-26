@@ -27,7 +27,7 @@
     padding: 10px 15px 15px;
 }
 
-// SUBMIT BUTTON STYLE 
+/* SUBMIT BUTTON STYLE  */
 #crm-container span.crm-button{
   padding:0;
 }
@@ -49,13 +49,13 @@
   display:none;
 }
 
-// KEEP ASTRISK ON THE SAME LINE AS LABEL
+/* KEEP ASTRISK ON THE SAME LINE AS LABEL */
 .crm-section.billing_name_address-section div.label, .crm-block .credit_card_info-group div.label {
 	white-space:nowrap;
 }
 
-// STYLE THE FIELDSETS
-.crm-container fieldset {
+/* STYLE THE FIELDSETS */
+.crm-container fieldset.credit_card_info-group, .crm-container fieldset.billing_name_address-group {
 	border: 1px solid #bbb;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
@@ -81,15 +81,27 @@ div.crm-section {
   margin-bottom: 15px;
 }
 
-// MODIFY HEIGH OF TEXT INPUT FIELDS
-#crm-container.crm-public input[type="text"],
-#crm-container.crm-public input[type="password"],
-#crm-container.crm-public input[type="email"],
-#crm-container.crm-public select {
+/* MODIFY HEIGHt and WIDTH OF TEXT INPUT FIELDS */
+#crm-container.crm-public .crm-block input[type="text"],
+#crm-container.crm-public .crm-block input[type="password"],
+#crm-container.crm-public .crm-block input[type="email"],
+#crm-container.crm-public .crm-block select {
   font-size: 0.85em;
   padding: 2px 5px 0;
+  width: 50%;
 }
 
+/* ADJUST LAYOUT OF PAYMENT PAGE COLUMNS */
 .crm-container .crm-section div.content {
   margin-left: 21%;
+}
+
+/* CORRECT WIDTH FOR CC EXP */
+#crm-container.crm-public div.crm-block select {
+    width:20%;
+}
+
+/* ADD SPACE BTW INPUTS */
+#crm-container.crm-public div.crm-section{
+	margin-bottom: 15px;
 }
