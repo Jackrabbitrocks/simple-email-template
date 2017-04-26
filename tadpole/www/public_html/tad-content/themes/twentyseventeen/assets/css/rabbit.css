@@ -105,3 +105,14 @@ div.crm-section {
 #crm-container.crm-public div.crm-section{
 	margin-bottom: 15px;
 }
+
+/* REMOVE PRINT BUTTON */
+#crm-container .fa-print {
+    display:none;
+}
+
+/* SECURITY CODE */
+#crm-container input#cvv2 {
+    max-width: 60px;
+    display: inline;
+}
