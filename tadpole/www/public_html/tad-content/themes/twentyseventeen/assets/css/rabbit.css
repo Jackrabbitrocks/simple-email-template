@@ -48,3 +48,7 @@
 .crm-i.fa-check{
   display:none;
 }
+
+.crm-section.billing_name_address-section div.label, .crm-block .credit_card_info-group div.label {
+	white-space:nowrap;
+}
