@@ -52,3 +52,24 @@
 .crm-section.billing_name_address-section div.label, .crm-block .credit_card_info-group div.label {
 	white-space:nowrap;
 }
+
+.crm-container fieldset {
+	border: 1px solid #bbb;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+.crm-container fieldset legend {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px;
+  background: none;
+  border: medium none;
+  background-color: transparent;
+  color: #3E3E3E;
+  position: relative;
+  text-indent: 0px;
+  width: auto;
+}
