@@ -128,10 +128,25 @@ div#crm-container {
 	overflow: scroll;
 }
 
-/* LABELS ON THEIR OWN ROW - MOBILE*/
+/*  MOBILE */
 @media only screen and (max-device-width: 667px) { 
+	/* LABELS ON THEIR OWN ROW */
   	#crm-container .label {
 	    display: block;
 	    float: none;
 	}
+
+	/* CORRECT WIDTH FOR MOBILE */
+	#crm-container.crm-public .crm-block input[type="text"],
+	#crm-container.crm-public .crm-block input[type="password"],
+	#crm-container.crm-public .crm-block input[type="email"],
+	#crm-container.crm-public .crm-block select {
+	  width: 90%;
+	}
+
+	/* PROVIDE SUFFICIENT SPACE TO THE LEFT PAYMENT PAGE COLUMNS */
+	.crm-container .crm-section div.content {
+	  margin-left: 0;
+	}
+
 }
