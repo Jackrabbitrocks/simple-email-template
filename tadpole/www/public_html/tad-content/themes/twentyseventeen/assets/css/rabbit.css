@@ -50,7 +50,7 @@
 }
 
 /* KEEP ASTRISK ON THE SAME LINE AS LABEL */
-.crm-section.billing_name_address-section div.label, .crm-block .credit_card_info-group div.label {
+.crm-section.billing_name_address-section div.label, .crm-block .credit_card_info-group div.label, .crm-section.other_amount-section, .crm-public-form-item.crm-section.email-5-section, .crm-section.other_amount-section, .crm-public-form-item.email-5-section, .crm-profile-name-event_registration .label, .crm-section.price_set-section .label {
 	white-space:nowrap;
 }
 
@@ -91,9 +91,9 @@ div.crm-section {
   width: 50%;
 }
 
-/* ADJUST LAYOUT OF PAYMENT PAGE COLUMNS */
+/* PROVIDE SUFFICIENT SPACE TO THE LEFT PAYMENT PAGE COLUMNS */
 .crm-container .crm-section div.content {
-  margin-left: 21%;
+  margin-left: 25%;
 }
 
 /* CORRECT WIDTH FOR CC EXP */
@@ -115,4 +115,9 @@ div.crm-section {
 #crm-container input#cvv2 {
     max-width: 60px;
     display: inline;
+}
+
+/* MAKE WIDTH SIMILAR TO CALDERA FORM WIDTH */
+div#crm-container {
+    max-width: 640px;
 }
