@@ -127,3 +127,11 @@ div#crm-container {
 .crm-main-content-wrapper form{
 	overflow: scroll;
 }
+
+/* LABELS ON THEIR OWN ROW - MOBILE*/
+@media only screen and (max-device-width: 667px) { 
+  	#crm-container .label {
+	    display: block;
+	    float: none;
+	}
+}
