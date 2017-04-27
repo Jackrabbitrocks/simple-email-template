@@ -149,4 +149,8 @@ div#crm-container {
 	  margin-left: 0;
 	}
 
+	/* MOBILE CORRECT WIDTH FOR LABELS */
+	#crm-container.crm-public div.label{
+	    width: 100%;
+	}
 }
