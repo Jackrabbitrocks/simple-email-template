@@ -55,7 +55,7 @@
 }
 
 /* STYLE THE FIELDSETS */
-.crm-container fieldset.credit_card_info-group, .crm-container fieldset.billing_name_address-group {
+.crm-container fieldset.credit_card_info-group, .crm-container fieldset.billing_name_address-group, .crm-container fieldset.crm-profile-name-event_registration {
 	border: 1px solid #bbb;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
