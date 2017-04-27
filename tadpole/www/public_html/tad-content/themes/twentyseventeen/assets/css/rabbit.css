@@ -55,7 +55,8 @@
 }
 
 /* STYLE THE FIELDSETS */
-.crm-container fieldset.credit_card_info-group, .crm-container fieldset.billing_name_address-group, .crm-container fieldset.crm-profile-name-event_registration {
+
+div.crm-container fieldset {
 	border: 1px solid #bbb;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
@@ -120,4 +121,9 @@ div.crm-section {
 /* MAKE WIDTH SIMILAR TO CALDERA FORM WIDTH */
 div#crm-container {
     max-width: 640px;
+}
+
+/* FORCE WIDE TABLES TO SCROLL INSTEAD OF OVERFLOWING OFF THE PAGE */
+.crm-main-content-wrapper form{
+	overflow: scroll;
 }
