@@ -128,6 +128,12 @@ div#crm-container {
 	overflow: scroll;
 }
 
+/* CORRECT WIDTH DROPDOWNS */
+div.crm-container.crm-public .select2-container,
+div.crm-container.crm-public .select2-results {
+  width: 50% !important;
+}
+
 /*  MOBILE */
 @media only screen and (max-device-width: 667px) { 
 	/* LABELS ON THEIR OWN ROW */
@@ -152,5 +158,11 @@ div#crm-container {
 	/* MOBILE CORRECT WIDTH FOR LABELS */
 	#crm-container.crm-public div.label{
 	    width: 100%;
+	}
+
+	/* CORRECT WIDTH DROPDOWNS */
+	div.crm-container.crm-public .select2-container,
+	div.crm-container.crm-public .select2-results {
+	  width: 90% !important;
 	}
 }
